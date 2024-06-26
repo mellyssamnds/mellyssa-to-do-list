@@ -4,7 +4,7 @@ export class Task {
     id: string;
     title: string;
     description: string;
-    status: `OPENED` | `FINISHED`;
+    status: `OPENED` | `CLOSED`;
 
     constructor(title: string, description: string) {
         this.id = uuidv4();
